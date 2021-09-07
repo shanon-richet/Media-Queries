@@ -1,32 +1,27 @@
 @media screen and (min-width: 768px) {
-    body {
+    body{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content:left;
     }
     .large{
         width:300px;
         height:900px;
         background-color: blue;
-        display:grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 10px;
     }
     .medium {
+        margin-left:300px;
         width:300px;
         height:900px;
         background-color: green;
-        display:grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 10px;
+        margin-top:-80px;
     }
     .small{
+        margin-left: 300px;
         width:300px;
         height:900px;
         background-color: red;
-    }
-
-    p{
-        display:grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 10px;
+        margin-top:-60px;
     }
 }
 
